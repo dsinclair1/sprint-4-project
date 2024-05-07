@@ -1,7 +1,7 @@
+from pathlib import Path
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-from pathlib import Path
 
 cars = pd.read_csv(Path(r"C:\Personal Files\Coding\GitHub\sprint-4-project\vehicles_us.csv"))
 
