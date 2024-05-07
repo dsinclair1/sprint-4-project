@@ -1,9 +1,8 @@
-from pathlib import Path
 import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-cars = pd.read_csv(Path(r"C:\Personal Files\Coding\GitHub\sprint-4-project\vehicles_us.csv"))
+cars = pd.read_csv(r"vehicles_us.csv")
 
 st.header('price by mileage')
 mp_hist = px.histogram(cars, x='price', y='odometer')
