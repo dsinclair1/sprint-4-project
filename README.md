@@ -8,4 +8,4 @@ This project can be run on a local machine by cloning the repository and running
 
 Web app link: https://sprint-4-project-d8iw.onrender.com/
 
-Thank you for your assistance, Yulia! I apologize for the technical difficulties.
+Thank you for your assistance, Yulia! I apologize for the technical difficulties - certain files were misplaced and saved to different places on my device - ironically in an effort to bring them together and make things easier to find.
