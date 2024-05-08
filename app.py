@@ -5,7 +5,7 @@ import plotly.express as px
 cars = pd.read_csv(r"vehicles_us.csv")
 
 st.header('price by mileage')
-mp_hist = px.histogram(cars, x='price', y='odometer', nbins=100)
+mp_hist = px.histogram(cars, x='price', y='odometer', nbins=120)
 st.write(mp_hist)
 
 st.header('price by type')
@@ -19,5 +19,5 @@ if toggle:
     st.write(year_scatt)
 else:
     st.header('price by list time')
-    time_hist = px.histogram(cars, x='price', y='days_listed', nbins=100)
+    time_hist = px.histogram(cars, x='price', y='days_listed', nbins=120)
     st.write(time_hist)
